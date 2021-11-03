@@ -1,5 +1,30 @@
+import styles from "../components/homePage.module.css";
+import { Contact } from "../components/contact";
+import { Divider } from "../components/divider";
+
 const Index = () => {
-  return <h1>welcome</h1>;
+  return (
+    <>
+      <section>
+        <p className={styles.intro}>Hi, my name is </p>
+        <span className={styles.name}>Sushmeet.</span>
+        <h2 className="styles.job">I develop apps</h2>
+        <p className={styles.description}>
+          I am a full stack developer specializing in Html, CSS Javascript,
+          Nodejs and React
+        </p>
+        <p className={styles.description}>
+          Currently I 'm working at{" "}
+          <a href="#" target="_blank">
+            Shutterstock
+          </a>
+        </p>
+      </section>
+      <Divider />
+      <Contact />
+      <Divider />
+    </>
+  );
 };
 
 export default Index;

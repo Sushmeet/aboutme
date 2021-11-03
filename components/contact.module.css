@@ -1,0 +1,30 @@
+.contact {
+  width: 400px;
+  text-align: center;
+  padding: 4rem 1rem;
+  margin: 0 auto;
+}
+
+.contactDesc {
+  margin-bottom: 2rem;
+}
+
+.sectionColor {
+  background-color: var(--plum);
+}
+
+/* 
+
+#contact {
+    width: 400px;
+    text-align: center;
+    margin: 0 auto;
+  padding: 3rem 0;
+}
+
+#contact p:last-child {
+    margin-top: 3rem;
+}
+
+
+*/

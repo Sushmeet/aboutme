@@ -1,0 +1,19 @@
+.intro {
+  font-family: var(--mono);
+  font-size: 1rem;
+}
+
+.name {
+  font-size: 4rem;
+  color: var(--aqua);
+  font-weight: 300;
+}
+
+.job {
+  font-size: 4rem;
+}
+
+.description {
+  font-size: 1rem;
+  line-height: 1.5;
+}
