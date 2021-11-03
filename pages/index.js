@@ -1,10 +1,12 @@
 import styles from "../components/homePage.module.css";
 import { Contact } from "../components/contact";
 import { Divider } from "../components/divider";
+import { NavBar } from "../components/navBar";
 
 const Index = () => {
   return (
     <>
+      <NavBar />
       <section>
         <p className={styles.intro}>Hi, my name is </p>
         <span className={styles.name}>Sushmeet.</span>

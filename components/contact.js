@@ -3,7 +3,7 @@ import styles from "./contact.module.css";
 export const Contact = () => {
   return (
     <div className={styles.sectionColor}>
-      <section className={styles.contact}>
+      <section id="contact" className={styles.contact}>
         <h2>Contact me</h2>
         <p className={styles.contactDesc}>
           I am always interested in solving new problems in tech and design. Hit
