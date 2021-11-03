@@ -1,2 +1,5 @@
 # dependencies
 /node_modules
+
+# Optional REPL history
+.next
