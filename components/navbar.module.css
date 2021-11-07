@@ -1,4 +1,6 @@
 .list {
+  margin: 0;
+  padding: 0;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
@@ -11,7 +13,11 @@
 
 .myName {
   text-align: center;
-  margin: 0 auto;
+  flex-basis: 100%;
+}
+
+.myNameIcon {
+  color: var(--aqua);
 }
 
 .myNameIcon {
@@ -36,4 +42,33 @@
 
 .icon:hover {
   color: var(--hotmag);
+}
+.navBar {
+  font-size: 80%;
+  padding: 4rem 1rem;
+}
+
+.button {
+  background-color: var(--magenta);
+  color: var(--white);
+  text-decoration: none;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+.button:hover {
+  color: var(--white);
+  background-color: var(--hotmag);
+}
+
+@media screen and (min-width: 850px) {
+  .navBar {
+    max-width: 1250px;
+    margin: 0 auto;
+  }
+  .myName {
+    flex-basis: auto;
+    text-align: left;
+    margin-right: auto;
+  }
 }

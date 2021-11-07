@@ -2,16 +2,18 @@ import styles from "./navbar.module.css";
 
 export const NavBar = () => {
   return (
-    <>
-      <h1 className={styles.myName}>
-        <a href="#" className={styles.anchor}>
-          <span className={styles.myNameIcon}>
-            <i aria-hidden="true" className="fas fa-road name-icon"></i>
-          </span>
-          Sushmeet Sunger
-        </a>
-      </h1>
+    <nav className={styles.navBar}>
       <ul className={styles.list}>
+        <li className={styles.myName}>
+          <h1>
+            <a href="#" className={styles.anchor}>
+              <span className={styles.myNameIcon}>
+                <i aria-hidden="true" className="fas fa-road name-icon"></i>
+              </span>
+              <span>Sushmeet</span>
+            </a>
+          </h1>
+        </li>
         <li>
           <a className={styles.anchor} href="#">
             Projects
@@ -44,13 +46,11 @@ export const NavBar = () => {
           </a>
         </li>
         <li>
-          <a className={styles.anchor} href="#">
+          <a className={styles.button} href="#">
             Resume
           </a>
         </li>
       </ul>
-    </>
+    </nav>
   );
 };
-
-// fas fa-road name-icon

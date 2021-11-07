@@ -1,0 +1,23 @@
+.footer {
+  padding: 4rem 1rem;
+  text-align: center;
+}
+
+/* .footerHeading {
+  text-align: center;
+} */
+
+/* .footerParagraph {
+  text-align: center;
+} */
+
+.footerList {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  gap: 3rem;
+  list-style-type: none;
+  margin: 2rem 0;
+  padding: 0;
+  font-size: 3rem;
+}

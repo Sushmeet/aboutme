@@ -2,6 +2,7 @@ import styles from "../components/homePage.module.css";
 import { Contact } from "../components/contact";
 import { Divider } from "../components/divider";
 import { NavBar } from "../components/navBar";
+import { Footer } from "../components/footer";
 
 const Index = () => {
   return (
@@ -25,6 +26,7 @@ const Index = () => {
       <Divider />
       <Contact />
       <Divider />
+      <Footer />
     </>
   );
 };
