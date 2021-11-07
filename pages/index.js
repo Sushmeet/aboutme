@@ -8,7 +8,7 @@ const Index = () => {
   return (
     <>
       <NavBar />
-      <section>
+      <section className={styles.sectionIntro}>
         <p className={styles.intro}>Hi, my name is </p>
         <span className={styles.name}>Sushmeet.</span>
         <h2 className="styles.job">I develop apps</h2>
