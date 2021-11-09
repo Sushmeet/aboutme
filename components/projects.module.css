@@ -1,0 +1,44 @@
+.projects {
+  background-color: var(--dkblue);
+  padding: 4rem 1rem;
+}
+
+.projectsMainHeader {
+  font-size: 2.5rem;
+  margin-bottom: calc(2.5rem * 1.5);
+}
+
+.projectName {
+  color: var(--aqua);
+}
+
+.projectParagraph {
+  padding: 1rem;
+  background-color: black;
+  font-size: 1rem;
+  border-radius: 10px;
+  line-height: 1.5;
+}
+
+.projectImage {
+  padding: 1rem;
+  margin: 2rem 0 4rem 0;
+
+  border-top: solid 1px var(--aqua);
+  border-left: solid 1px var(--aqua);
+  border-radius: 25px;
+}
+
+.projectTechnologiesUsedHeading {
+  font-size: 1rem;
+  font-family: var(--mono);
+}
+
+.techList {
+  display: flex;
+  flex-flow: row wrap;
+  list-style-type: none;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+}

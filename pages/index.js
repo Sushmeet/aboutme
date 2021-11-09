@@ -3,6 +3,8 @@ import { Contact } from "../components/contact";
 import { Divider } from "../components/divider";
 import { NavBar } from "../components/navBar";
 import { Footer } from "../components/footer";
+import { Projects } from "../components/projects";
+import { projectData } from "../components/data/projectData";
 
 const Index = () => {
   return (
@@ -23,6 +25,8 @@ const Index = () => {
           </a>
         </p>
       </section>
+      <Divider />
+      <Projects />
       <Divider />
       <Contact />
       <Divider />
