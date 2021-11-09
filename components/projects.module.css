@@ -1,5 +1,8 @@
-.projects {
+.projectsSectionColor {
   background-color: var(--dkblue);
+}
+
+.projects {
   padding: 4rem 1rem;
 }
 
@@ -41,4 +44,25 @@
   gap: 1rem;
   margin: 0;
   padding: 0;
+}
+
+@media screen and (min-width: 850px) {
+  .projects {
+    max-width: 1250px;
+    margin: 0 auto;
+  }
+
+  .article {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+  }
+  .text {
+    order: 2;
+    text-align: right;
+  }
+
+  .techList {
+    justify-content: flex-end;
+  }
 }
