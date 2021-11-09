@@ -13,7 +13,7 @@ const Index = () => {
       <section className={styles.sectionIntro}>
         <p className={styles.intro}>Hi, my name is </p>
         <span className={styles.name}>Sushmeet.</span>
-        <h2 className="styles.job">I develop apps</h2>
+        <h2 className={styles.job}>I develop apps</h2>
         <p className={styles.description}>
           I am a full stack developer specializing in Html, CSS Javascript,
           Nodejs and React
@@ -26,7 +26,22 @@ const Index = () => {
         </p>
       </section>
       <Divider />
-      <Projects />
+      <div className={styles.projectsSectionColor}>
+        <section id="projects" className={styles.projects}>
+          <h2 className={styles.projectsMainHeader}>Projects I'm proud of</h2>
+          {projectData.map((article) => {
+            return (
+              <Projects
+                key={article.projectTitle}
+                projectTitle={article.projectTitle}
+                projectName={article.projectName}
+                projectparagraph={article.projectparagraph}
+                image={article.image}
+              />
+            );
+          })}
+        </section>
+      </div>
       <Divider />
       <Contact />
       <Divider />
