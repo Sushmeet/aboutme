@@ -1,3 +1,4 @@
+import Link from "next/Link";
 import styles from "./navbar.module.css";
 
 export const NavBar = () => {
@@ -15,14 +16,16 @@ export const NavBar = () => {
           </h1>
         </li>
         <li>
-          <a className={styles.anchor} href="#projects">
-            Projects
-          </a>
+          <Link href="/">
+            <a className={styles.anchor} href="#projects">
+              Projects
+            </a>
+          </Link>
         </li>
         <li>
-          <a className={styles.anchor} href="#">
-            About
-          </a>
+          <Link href="/about">
+            <a className={styles.anchor}>About Us</a>
+          </Link>
         </li>
         <li>
           <a className={styles.anchor} href="#contact">

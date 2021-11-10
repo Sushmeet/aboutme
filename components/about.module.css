@@ -1,0 +1,20 @@
+.projectsSectionColor {
+  background-color: var(--dkblue);
+}
+
+/* Projects Section */
+.projects {
+  padding: 4rem 1rem;
+}
+
+.projectsMainHeader {
+  font-size: 2.5rem;
+  margin-bottom: calc(2.5rem * 1.5);
+}
+
+@media screen and (min-width: 850px) {
+  .projects {
+    max-width: 1250px;
+    margin: 0 auto;
+  }
+}

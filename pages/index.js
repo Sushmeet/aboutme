@@ -1,7 +1,6 @@
 import styles from "../components/homePage.module.css";
 import { Contact } from "../components/contact";
 import { Divider } from "../components/divider";
-import { NavBar } from "../components/navBar";
 import { Footer } from "../components/footer";
 import { Projects } from "../components/projects";
 import { projectData } from "../components/data/projectData";
@@ -9,7 +8,6 @@ import { projectData } from "../components/data/projectData";
 const Index = () => {
   return (
     <>
-      <NavBar />
       <section className={styles.sectionIntro}>
         <p className={styles.intro}>Hi, my name is </p>
         <span className={styles.name}>Sushmeet.</span>
@@ -44,8 +42,6 @@ const Index = () => {
       </div>
       <Divider />
       <Contact />
-      <Divider />
-      <Footer />
     </>
   );
 };
