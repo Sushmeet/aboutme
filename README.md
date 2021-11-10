@@ -6,5 +6,5 @@ https://fontawesome.com/v5.15/icons?d=gallery&p=2&q=mail
 
 
 # Website URL
-https://sushmeet.github.io/training/front-end-masters/jen/learncss/index.html
+https://aboutme-sushmeet.vercel.app/
 
