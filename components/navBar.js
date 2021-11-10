@@ -15,7 +15,7 @@ export const NavBar = () => {
           </h1>
         </li>
         <li>
-          <a className={styles.anchor} href="#">
+          <a className={styles.anchor} href="#projects">
             Projects
           </a>
         </li>

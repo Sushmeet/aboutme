@@ -41,12 +41,20 @@
 @media screen and (min-width: 850px) {
   .article {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(10, 1fr);
     grid-gap: 1rem;
   }
+
+  .projectImage {
+    grid-column: 1 / 6;
+    grid-row: 1 / 2;
+  }
+
   .text {
     order: 2;
     text-align: right;
+    grid-column: 5 / 11;
+    grid-row: 1 / 2;
   }
 
   .techList {
