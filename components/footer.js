@@ -1,5 +1,8 @@
 import styles from "./footer.module.css";
 
+const linkedInURL = "https://www.linkedin.com/in/sushmeetsunger/";
+const githubURL = "https://github.com/Sushmeet";
+
 export const Footer = () => {
   return (
     <footer className={styles.footer}>
@@ -8,13 +11,13 @@ export const Footer = () => {
       </h2>
       <ul className={styles.footerList}>
         <li>
-          <a href="#">
+          <a href={linkedInURL} target="_blank">
             <span className="sr-only">Linked In</span>
             <i aria-hidden="true" className="fab fa-linkedin"></i>
           </a>
         </li>
         <li>
-          <a href="#">
+          <a href={githubURL} target="_blank">
             <span className="sr-only">Github</span>
             <i aria-hidden="true" className="fab fa-github-square"></i>
           </a>
