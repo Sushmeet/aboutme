@@ -1,6 +1,9 @@
 import Link from "next/Link";
 import styles from "./navbar.module.css";
 
+const linkedInURL = "https://www.linkedin.com/in/sushmeetsunger/";
+const githubURL = "https://github.com/Sushmeet";
+
 export const NavBar = () => {
   return (
     <nav className={styles.navBar}>
@@ -28,12 +31,12 @@ export const NavBar = () => {
           </Link>
         </li>
         <li>
-          <a className={styles.anchor} href="#contact">
+          <a className={styles.anchor} href="/#contact">
             Contact
           </a>
         </li>
         <li>
-          <a className={styles.anchor} href="#">
+          <a className={styles.anchor} href={linkedInURL} target="_blank">
             <span className="sr-only">LinkedIn</span>
             <span className={styles.icon}>
               <i aria-hidden="true" className="fab fa-linkedin"></i>
@@ -41,7 +44,7 @@ export const NavBar = () => {
           </a>
         </li>
         <li>
-          <a className={styles.anchor} href="#">
+          <a className={styles.anchor} href={githubURL} target="_blank">
             <span className="sr-only">Github</span>
             <span className={styles.icon}>
               <i aria-hidden="true" class="fab fa-github-square"></i>
